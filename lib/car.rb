@@ -3,8 +3,8 @@ class Car
   
   @all = []
   def initialize (car)
-
-  @@vehicle = vehicle
+      @@vehicle = vehicle
+        @all << vehicle
   @all << vehicle
     def go
     "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
