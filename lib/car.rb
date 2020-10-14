@@ -1,10 +1,10 @@
 require_relative "./vehicle.rb"
-class Car 
+class Car <<vehicle
   
-  @all = []
+  def initialize (car)
   
-  
-  
+end
+ 
     def go
     "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
   end
