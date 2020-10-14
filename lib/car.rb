@@ -4,7 +4,7 @@ class Car
   @all = []
   def initialize (car)
       @@vehicle = vehicle
-      @@all << vehicle
+    
   end
   
     def go
